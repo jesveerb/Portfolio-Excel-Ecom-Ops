@@ -14,3 +14,7 @@ To ingest, clean, and standardize a raw, error-filled e-commerce dataset to ensu
 * **Relational Mapping:** Replaced brittle `VLOOKUP` functions with `INDEX/MATCH` to dynamically map Unit Prices from a Product Master table to the daily transaction log.
 * **Dynamic Logic:** Engineered nested `IF` statements to automatically apply tiered discount multipliers based on promotional codes.
 * **Error Quarantining:** Wrapped revenue calculations in `IFERROR` functions to catch unmapped SKUs, outputting $0 to prevent `#VALUE!` errors from crashing downstream aggregations.
+
+* ## Foundational Analytics: Arithmetic & Conditional Aggregation
+* **Descriptive Statistics:** Utilized `SUM`, `AVERAGE`, and `COUNT` to establish baseline metrics for employee headcount and total payroll liabilities.
+* **Conditional Analysis:** Engineered `SUMIFS`, `AVERAGEIFS`, and `MAXIFS` formulas to dynamically extract region-specific and department-specific insights from a larger raw dataset.
